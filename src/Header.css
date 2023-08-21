@@ -1,0 +1,87 @@
+.header{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+}
+.haeder-left{
+    display: flex;
+     align-items:center;
+     justify-content: space-evenly;
+     
+}
+@media (min-width: 280px) and (max-width:768px) {
+    .haeder-left > img{
+         margin-left: 0px;
+    } 
+  }
+
+@media (min-width: 280px) and (max-width:768px) {
+    .haeder-left .Menu{
+        display: none;
+    } 
+  }
+
+.center{
+    display: flex;
+    align-items:center; 
+    width: 40%;
+    
+    border: 1px solid lightgray;
+   
+}
+@media (min-width: 280px) and (max-width:768px) {
+    .center{
+        border: none;
+         margin-left: 30px;
+    } 
+  }
+
+@media (min-width: 280px) and (max-width:768px) {
+    .center > input{
+        display: none;
+    } 
+  }
+.center > input{
+    flex: 1;
+    border: none;
+    height: 25px;
+    width: 50px;
+}
+.right{
+    display: flex;
+    align-items:center;
+     margin-right: 18px;
+     
+}
+@media (min-width: 280px) and (max-width:768px) {
+    .right{
+         margin-left: 3px; 
+         margin-right: 2px;
+    } 
+  }
+
+@media (min-width: 280px) and (max-width:768px) {
+    .Left{
+        display: none !important;  
+    } 
+  }
+
+
+.img{
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 80px;
+    margin-left: 20px;
+   }
+   .serachicon{
+    width: 50px;
+    background-color: #fafafa;
+    color: grey;
+    border-left: 1px solid lightgrey;
+
+   }
+   
+    
+ 

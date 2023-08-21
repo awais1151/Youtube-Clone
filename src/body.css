@@ -1,0 +1,20 @@
+.body{
+    flex: 0.82;
+     background-color: #f9f9f9;
+     padding: 40px 20px;
+     padding-bottom: 0;
+}
+.body > h2{
+    margin-left: 5px;
+     margin-bottom: 20px;
+}
+.Recommended__videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* @media (min-width: 280px) and (max-width:768px) {
+    .body{
+        margin-left: 0px;
+    } 
+  } */

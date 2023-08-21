@@ -1,0 +1,26 @@
+.videocard{
+    width:270px;
+    margin-top: 20px;
+    margin-left:25px;
+    
+
+}
+.Thumbnail{
+    display: flex;
+    width: 270px;
+    height: 150px; 
+
+}
+ 
+.Cardinfo{
+    display: flex;
+    
+     
+}
+.Description > h4{
+margin-bottom: 0px;
+}
+     
+.men{
+     margin-top: 15px;
+}

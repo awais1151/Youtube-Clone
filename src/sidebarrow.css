@@ -1,0 +1,48 @@
+.sidebarrows{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* @media (min-width: 280px) and (max-width:768px) {
+    .sidebarrows{
+       
+       flex-direction: row;
+       height: 5px;
+       width: 350px;
+       z-index: 200;
+    } 
+  } */
+
+.icon{
+    color: #606060;
+    font-size: large !important;
+}
+.title{
+    flex: 1;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.sidebarrows :hover{
+    background-color: lightgray;
+    cursor: pointer;
+     
+}
+.sidebarrows:hover > .icon{
+    color: red;
+}
+.sidebarrows:hover > .title{
+    font-weight: bold;
+}
+.sidebarrows.selected{
+    background-color: lightgrey;
+    /* width: 10px; */
+    height: 5px;
+}
+.sidebarrows.selected >.title{
+    font-weight: bold;  
+}
+.sidebarrows.selected >.icon{
+    color: red;
+}
